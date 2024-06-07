@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
   float speed = 2;
   int snowDiameter = 10;
   PImage reindeer;
-  
+
   float reindeerX, reindeerY;
   boolean gameOver = false;
 
@@ -24,11 +24,11 @@ public class Sketch extends PApplet {
     background(0);
 
     // Generate random x and y values for snowflakes
-    for (int i = 0; i  < snowX.length; i++) {
+    for (int i = 0; i < snowX.length; i++) {
       snowX[i] = random(width);
       snowY[i] = random(height);
     }
-    
+
     // Reindeer position
     reindeerX = width / 2;
     reindeerY = height / 2;
